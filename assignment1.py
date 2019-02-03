@@ -2,8 +2,8 @@ from sklearn.linear_model import Ridge
 import pandas as pd
 import numpy as np
 
-train = pd.read_csv('train.csv')
-test = pd.read_csv('test.csv')
+train = pd.read_csv('data/train.csv')
+test = pd.read_csv('data/test.csv')
 
 y_train = train.pop('SalePrice')
 
